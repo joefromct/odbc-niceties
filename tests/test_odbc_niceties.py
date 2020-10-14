@@ -12,7 +12,7 @@ except KeyError:
     raise KeyError("No CONN_STRING string in envorinment?")
 
 def test_version():
-    assert sut.__version__ == '0.1.0'
+    assert sut.__version__ == '0.1.1'
 
 
 # TODO
