@@ -6,13 +6,13 @@ authors = ["joefromct"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-tabulate = "^0.8.7"
-pyodbc = "^4.0.30"
-cytoolz = "^0.11.0"
+tabulate = "^0.8.0"
+pyodbc = "^4.0.0"
+cytoolz = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
-ipython = "^7.18.1"
+pytest = "^5.0"
+ipython = "^7.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
